@@ -1,0 +1,228 @@
+
+
+ 
+
+
+
+ 
+
+
+
+Clique methods:
+
+
+
+A community can be interpreted
+as a union of smaller complete (fully connected) subgraphs that share nodes. A
+k-clique is a fully connected subgraph consisting of k nodes. A k-clique
+community can be defined as union of all k-cliques that can be reached from
+each other through a series of adjacent k-cliques. Many researchers have used
+cliques to detect overlapping communities
+
+
+
+ 
+
+
+
+ 
+
+
+
+Author: Palla G, Derenyi I,
+Farhas I, Vicsek T. 
+
+
+
+Paper: Uncovering the
+overlapping community structure of complex networks in nature and society
+
+
+
+Requirement: nodes, threshold
+weight
+
+
+
+Code: http://igraph.wikidot.com/community-detection-in-r
+; http://www.cfinder.org/ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+Author: Lee C, Reid F, McDaid
+A, Hurley N. 
+
+
+
+Paper: Detecting highly
+overlapping community structure by greedy clique expansion
+
+
+
+Requirement: fitness function
+
+
+
+Code: https://sites.google.com/site/greedycliqueexpansion/
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+Non-clique methods
+
+
+
+Author: Lancichinetti A,
+Radicchi F, Ramasco JJ, Fortunato S. 
+
+
+
+Paper: Finding statistically
+significant communities in networks (OSLOM)
+
+
+
+Code: http://www.oslom.org/
+
+
+
+Requirement: N vertices, E
+edges, degree of subgraph, internal and external degree of subgraph
+
+
+
+Order Statistics Local Optimization Method(OSLOM): detects
+clusters in networks, and can handle various kind of graph properties like edge
+direction, edge weights, overlapping communities, hierarchy and network
+dynamics. It is based on local optimization of a fitness function expressing
+the statistical significance of clusters with respect to random fluctuations,
+which is estimated with tools of Extreme and Order Statistics.
+
+
+
+Author: Alvari H, Hashemi S,
+Hamzeh A. 
+
+
+
+Paper: Detecting overlapping
+communities in social networks by game theory and structural equivalence
+concept. (game theory based)
+
+
+
+Code: https://github.com/hamidalvari/D-GT
+
+
+
+Requirement: V vertices and E
+edges
+
+
+
+This method proposed the
+Dynamic Game Theory method (D-GT) which treated nodes as rational agents. These
+agents perform actions in iterative and game theoretic manner so as to maximize
+the total utility.
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+Newman and Girvan first defined a measure known as
+‘modularity’ to judge the quality of partitions or communities formed20. The
+modularity measure proposed by them has been widely accepted and used by researchers
+to gauge the goodness of the modules obtained from the community detection
+algorithms with high modularity corresponding to a better community structure.
+Modularity was defined as Σ𝒆𝒊𝒊𝒊−𝒂𝒊𝟐
+, where 𝒆𝒊𝒊 denotes fraction of the
+edges that connect vertices in community 𝒊, 𝒆𝒊𝒋
+denotes fraction of the edges connecting vertices in two different communities 𝒊
+and 𝒋
+while 𝒂𝒊=Σ𝒆𝒊𝒋𝒋
+is the fraction of edges that connect to vertices in community 𝒊.
+The value 𝑄=1 indicates a network with strong community
+structure.
+
+
+
+ 
+
+
+
+Author: Nicosia V, Mangioni G, Carchiolo V, Malgeri M. 
+
+
+
+Paper: Extending the definition of modularity to directed
+graphs with overlapping communities
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+Reference: 
+
+
+
+Overlapping community detection
+in networks: the state-Of-the-art and comparative study
+
+
+
+ 
+
+
+
+Community detection social
+networks
+
+
+
